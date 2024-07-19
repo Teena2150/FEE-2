@@ -1,0 +1,61 @@
+.body{
+    background-image: url(https://cchm.codebrigade.in/images/Chitkara_University_pic.jpg);
+    height: 150vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    border-top: 10px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://cbs.codebrigade.in/cb_top_right_icon.png);
+    background-size: 100% 100%;
+    margin-left: 1200px;
+    position: sticky;
+}
+.logo{
+    background-size: 100% 100%;
+    height: 130px;
+    width: 200px;
+}
+.details{
+    top:10px;
+}
+.card{
+    background-color: white;
+    border: 2px solid grey;
+    height: 630px;
+    width: 230px;
+    padding: 30px;
+    margin-left: 800px;
+}
+.input{
+    border: 1px solid rgb(136, 154, 158);
+    background-color: #E8F0FE;
+    height: 20px;
+    width: 200px;
+    outline:none;
+}
+#session{
+    border: 1px solid rgb(96, 135, 144);
+    /* background-color: rgb(146, 183, 210); */
+    height: 20px;
+    width: 200px;
+    outline:none;
+}
+/* .input:hover{
+    border: 1px solid rgb(141, 176, 184);
+    background-color: rgb(146, 183, 210);
+} */
+.signin{
+    height: 40px;
+    width: 200px;
+    background-color: red;
+    color: white;
+}
+.icons{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 100px;
+}
