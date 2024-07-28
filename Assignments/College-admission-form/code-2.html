@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-3</title>
+    <link rel="stylesheet" href="code-1.css">
+</head>
+<body>
+    <div class="red-line"></div>
+    <center><div class="logo" style="margin: 10px;"><img src="logo.png" alt="Logo"></div></center><br><br><br>
+    <center><h3 style="color: rgb(226,20,20);">APPLICATION FORM FOR YEAR 2024</h3></center>
+    <div class="div-form">
+        <form action="">
+            <p style="color: red;">3.Correspondence Address:</p>
+            <input type="text">
+            <p style="color: red;">4.Permanent Address:</p>
+            <input type="text">
+            <p style="color: red;">5. Date and Place of Birth:</p>
+            <label for="">Date:</label><input type="text"><br><label for="">Month:</label><input type="text"><br><label for="">Year:</label><input type="text"><br><label for="">Place:</label><input type="text"><br>
+            <label for="state" style="color: red;">6.Nationality:</label><input type="text">
+            <!-- Category -->
+            <div class="form-group">
+                <label for="category" style="color: red;">7.Category:</label>
+                <div>
+                    <input type="radio" name="category" id="category_general" value="General">
+                    <label for="category_general">General</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" id="category_sc" value="SC">
+                    <label for="category_sc">SC</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" id="category_st" value="ST">
+                    <label for="category_st">ST</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" id="category_obc" value="OBC">
+                    <label for="category_obc">OBC</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" id="category_ph" value="Physically Handicapped">
+                    <label for="category_ph">Physically Handicapped</label>
+                </div>
+                <div>
+                    <input type="radio" name="category" id="category_others" value="Others">
+                    <label for="category_others">Others (Please Specify)</label>
+                </div>
+            </div>
+            <!-- Gender -->
+            <div class="form-group">
+                <label for="gender" style="color: red;">8.Gender:</label>
+                <div>
+                    <input type="radio" name="gender" id="gender_male" value="Male">
+                    <label for="gender_male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="gender_female" value="Female">
+                    <label for="gender_female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="gender_others" value="Others">
+                    <label for="gender_others">Others</label>
+                </div>
+            </div>
+
+            <!-- Marital Status -->
+            <div class="form-group">
+                <label for="marital_status" style="color: red;">9.Marital Status:</label>
+                <div>
+                    <input type="radio" name="marital_status" id="marital_status_married" value="Married">
+                    <label for="marital_status_married">Married</label>
+                </div>
+                <div>
+                    <input type="radio" name="marital_status" id="marital_status_unmarried" value="Unmarried">
+                    <label for="marital_status_unmarried">Unmarried</label>
+                </div>
+            </div>
+
+            <!-- Hostel Accommodation -->
+            <div class="form-group">
+                <label for="hostel_accommodation" style="color: red;">10.Hostel Accommodation Required:</label>
+                <div>
+                    <input type="radio" name="hostel_accommodation" id="hostel_accommodation_yes" value="Yes">
+                    <label for="hostel_accommodation_yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" name="hostel_accommodation" id="hostel_accommodation_no" value="No">
+                    <label for="hostel_accommodation_no">No</label>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <center><button class="btn">Submit</button></center>
+        </form>
+    </div>
+</body>
+</html>
